@@ -8,7 +8,8 @@ local L = bb:GetModule('Localization')
 categories:RegisterCategoryFunction("LootableFilter", function (data)
 
   if data.containerInfo.hasLoot then
-    return L:G("Lootable")
+    -- the prefix here is to get it to sort to the end of the bag
+    return L:G("~Lootable")
   end
 
   return nil
