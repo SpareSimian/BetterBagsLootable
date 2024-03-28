@@ -1,6 +1,6 @@
 ## Interface: 100205
 ## Title: BetterBagsLootable
-## Version: 10.2.6-1
+## Version: 10.2.6-2
 ## Notes: BetterBags filter plugin to create Lootable category for containers
 ## Author: SpareSimian
 ## Dependency: BetterBags

@@ -9,7 +9,7 @@ categories:RegisterCategoryFunction("LootableFilter", function (data)
 
   if data.containerInfo.hasLoot then
     -- the prefix here is to get it to sort to the end of the bag
-    return L:G("~Lootable")
+    return L:G("|cffff8080Lootable|r")
   end
 
   return nil
